@@ -1,0 +1,98 @@
+h1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.topsec{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.lside{
+    display: flex;
+    background-color: rgb(5, 165, 160);
+    width: 230px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.lside :hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+.lside a{
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.rside form input{
+    padding-left: 10px;
+    height: 30px;
+}
+
+.rside form button{
+    margin-left: 5px;
+    height: 35px;
+    width: 60px;
+}
+
+table{
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+table tr td a{
+    text-decoration: none;
+    color: blue;
+}
+
+.buttonBox{
+    display: flex;
+}
+
+.buttonBox a{
+    margin: auto;
+    color: #fcfafa;
+}
+
+tr td .editbutton{
+    display: flex;
+    width: 56px;
+    height: 30px;
+    background-color: rgb(235, 132, 14);
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+tr td .deletebutton{
+    display: flex;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(201, 11, 30);
+    align-items: center;
+    border-radius: 8px;
+}
+
+
