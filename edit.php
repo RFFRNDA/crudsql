@@ -102,6 +102,10 @@ if( isset($_POST["submit"]) ) {
                 nilaiInput.removeAttribute('value');
             }
         });
+        
+        document.querySelector(".back").addEventListener("click", function() {
+            window.location.href = "index.php";
+        });
     </script>  
 </body>
 </html>
